@@ -1,0 +1,10 @@
+#main {
+  width: 960px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#footer {
+  height: 90px;
+  background-color: #ccf962;
+}
