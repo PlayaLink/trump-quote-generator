@@ -5,7 +5,8 @@
 body {
   background-color: #660066;
   font-family: 'Raleway', sans-serif;
-  font-weight: 400;
+  font-weight: 600;
+  font-size: 2em;
 }
 
 .wrapper {
@@ -68,6 +69,7 @@ body {
   background-color: white;
   min-width: 600px;
   max-width: 620px;
+  height: 570px;
   text-align: center;
 }
 
@@ -75,8 +77,8 @@ body {
   position: absolute;
   width: 450px;
   margin: 30px auto
-  top: 7%;
-  right: 20px;
+  top: 5%;
+  right: 7%;
 }
 
 .quote {
