@@ -1,41 +1,51 @@
 <head>
-
+  <title>Trump Quotes</title>
+  <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
+  <link rel="stylesheet" type="text/css" href="main.css">
 </head>
 
 <body>
 
-  <div class="title text-center">
-    <h1>Yes, he really said this...</h1>
-  </div>
+  <div class="wrapper">
 
-  <div class="row">
+    <div class="header"></div>
 
-    <div class="col-sm-6 text-center">
-      <img src="https://cdn0.iconfinder.com/data/icons/politicians-vol-3/426/trump_bw-512.png" alt="trump icon" />
-    </div>
+    <div class="main">
 
-    <div class="col-sm-6">
-      <div id="box">
-        <p id="quote">Wait for it...</p>
-        <div =class="row">
-          <div class="col-xs-12">
-             <a class="twitter-share-button"
-               href="#"
-               data-size="large"
-               target="_blank">
-                  <button class="btn btn-sm btn-info hidden"
-                    id="tweetThis"
-                    type="button">
-                      Tweet quote
-                  </button>
-               </a>
+      <div class="box sidebar"></div>
+
+      <div class="box content">
+        <!-- IMAGE -->
+        <div class="image">
+          <div class="trump-pointing"></div>
+        </div>
+        <!-- QUOTE BOX -->
+        <div class="quote-box">
+          <p id="quote"></p>
+          <div class="buttons">
+            <button id="getQuote" class="button btn btn-warning">Poke the bear!</button>
+            <a id="tweetThis"
+              class="twitter-share-button"
+              data-size="large"
+              target="_blank">
+               <button class="button btn btn-sm btn-info"
+                 type="button">
+                   Tweet quote
+               </button>
+            </a>
           </div>
         </div>
       </div>
-      <button id="getQuote" class="btn btn-warning">Poke the bear!</button>
+
+      <div class="box sidebar"></div>
 
     </div>
+
+    <div class="footer"></div>
   </div>
+
+  <!-- SCRIPTS -->
   <script type="text/javascript" src="public/assets/js/jquery-3.2.1.min.js"></script>
   <script type="text/javascript" src="main.js"></script>
+
 </body>

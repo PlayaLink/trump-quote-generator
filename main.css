@@ -1,0 +1,101 @@
+@import 'public/assets/css/bootstrap.css';
+@import 'public/assets/css/font-awesome.css';
+
+
+body {
+  background-color: #660066;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 400;
+}
+
+.wrapper {
+  display: table;
+  width: 100%;
+  height: 100%;
+  text-align: center
+}
+
+.header{
+  height: 20%;
+  width: auto;
+  display: table-row;
+}
+
+.footer{
+  height: 20%;
+  width: auto;
+  display: table-row;
+}
+
+.main {
+  display: table;
+  width: 100%;
+  height: 100%;
+}
+
+.box {
+  display: table-cell;
+}
+
+.sidebar {
+  width: 20%;
+  height: auto;
+}
+
+.trump-pointing {
+  background-image: url('public/assets/images/trump_pointing.jpeg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 400px;
+  height: 306px;
+}
+
+.image {
+  float: left;
+  padding: 10px;
+}
+
+.button {
+  display: inline-block;
+  margin: 5px;
+}
+
+
+.content {
+  border-radius: 100px;
+  padding: 30px;
+  position: relative;
+  background-color: white;
+  min-width: 600px;
+  max-width: 620px;
+  text-align: center;
+}
+
+.quote-box {
+  position: absolute;
+  width: 450px;
+  margin: 30px auto
+  top: 7%;
+  right: 20px;
+}
+
+.quote {
+  min-height: 100px;
+  width: auto;
+}
+
+.image {
+  position: absolute;
+  bottom: -10px;
+  left: 90px;
+}
+
+
+@media screen
+  and (min-device-width: 1200px)
+  and (max-device-width: 1600px)
+  and (-webkit-min-device-pixel-ratio: 1) {
+  .quote-box{
+    margin-top: 30px;
+  }
+}
